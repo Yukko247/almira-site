@@ -106,6 +106,9 @@ a:focus-visible {
   color: var(--ink-light);
   margin-bottom: 64px;
 }
+.nowrap {
+  white-space: nowrap;
+}
 .vital-line {
   color: var(--teal);
   line-height: 0;
