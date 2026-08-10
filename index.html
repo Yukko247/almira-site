@@ -33,7 +33,9 @@
     </div>
     <div class="vital-line" aria-hidden="true">
       <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,30 L260,30 L285,30 L300,12 L315,48 L330,30 L355,30 L1200,30"
+        <path class="vital-base" d="M0,30 L260,30 L285,30 L300,12 L315,48 L330,30 L355,30 L1200,30"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path class="vital-trace" d="M0,30 L260,30 L285,30 L300,12 L315,48 L330,30 L355,30 L1200,30" pathLength="100"
               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </div>
@@ -90,6 +92,24 @@
     <p class="copyright">&copy; 2026 Almira Inc.</p>
   </div>
 </footer>
+
+<script>
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+  var revealTargets = document.querySelectorAll('#service .container, #company .container, #contact .container');
+  var revealObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealTargets.forEach(function (el) {
+    el.classList.add('reveal');
+    revealObserver.observe(el);
+  });
+}
+</script>
 
 </body>
 </html>
