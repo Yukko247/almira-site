@@ -37,6 +37,6 @@
 
 - 設立日: 未定。決まり次第、会社概要に「設立」行を追加
 - 連絡先メールアドレス: 未取得。取得次第、お問い合わせセクションの「準備中」文言を差し替え
-- 独自ドメイン: almirainc.com を取得済み(Xserverドメイン管理)。CNAMEファイル追加済み。DNS設定とGitHub Pagesのカスタムドメイン設定・HTTPS有効化が完了したら本項を「完了」に更新
+- 独自ドメイン: 完了(2026-08-10)。almirainc.com をGitHub Pagesに接続済み。DNSはXserverドメイン管理(ネームサーバーはns1〜ns3.xdomain.ne.jp)、HTTPS有効(Enforce HTTPS済み・証明書は自動更新)。公開URLは https://almirainc.com/ 、電子公告は https://almirainc.com/koukoku.html
 - 決算公告: 第1期決算確定後、koukoku.htmlに貸借対照表の要旨を掲載
 - 製品名: 正式決定後、サイト全体の「開発中のサービス」表現を製品名入りの文面に差し替え
