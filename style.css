@@ -64,10 +64,15 @@ a:focus-visible {
   text-decoration: none;
   letter-spacing: 0.04em;
 }
+.brand-almira {
+  width: auto;
+  height: 13px;
+  margin-left: 14px;
+}
 .brand-mark {
   width: auto;
   height: 26px;
-  margin-right: 8px;
+  margin-left: 5px;
 }
 .brand-kk {
   font-size: 0.8rem;
