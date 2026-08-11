@@ -89,8 +89,8 @@ a:focus-visible {
 .hero-logo {
   display: block;
   width: auto;
-  height: 56px;
-  margin-bottom: 48px;
+  height: 88px;
+  margin-bottom: 40px;
 }
 .hero-eyebrow {
   color: var(--teal-dark);
