@@ -56,23 +56,11 @@ a:focus-visible {
   padding-bottom: 16px;
 }
 .brand {
-  display: inline-flex;
-  align-items: center;
   font-weight: 900;
   font-size: 1.25rem;
   color: var(--ink);
   text-decoration: none;
   letter-spacing: 0.04em;
-}
-.brand-almira {
-  width: auto;
-  height: 13px;
-  margin-left: 14px;
-}
-.brand-mark {
-  width: auto;
-  height: 26px;
-  margin-left: 5px;
 }
 .brand-kk {
   font-size: 0.8rem;
@@ -97,6 +85,12 @@ a:focus-visible {
 .hero {
   background: var(--white);
   padding: 96px 0 0;
+}
+.hero-logo {
+  display: block;
+  width: auto;
+  height: 40px;
+  margin-bottom: 16px;
 }
 .hero-eyebrow {
   color: var(--teal-dark);
