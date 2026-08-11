@@ -84,13 +84,13 @@ a:focus-visible {
 /* Hero */
 .hero {
   background: var(--white);
-  padding: 96px 0 0;
+  padding: 48px 0 0;
 }
 .hero-logo {
   display: block;
   width: auto;
-  height: 40px;
-  margin-bottom: 16px;
+  height: 56px;
+  margin-bottom: 48px;
 }
 .hero-eyebrow {
   color: var(--teal-dark);
